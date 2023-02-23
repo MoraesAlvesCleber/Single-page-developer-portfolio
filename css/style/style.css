@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+.adamkeyes {
+    position: absolute;
+    width: 172px;
+    height: 32px;
+    left: 165px;
+    top: 39px;
+
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+    letter-spacing: -0.444444px;
+    color: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 192.49px;
+    height: 25px;
+    left: 1053px;
+    top: 43px;
+}
