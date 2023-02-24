@@ -28,6 +28,7 @@ h1 {
 }
 
 .grifado {
+    display: absolute;
     border-bottom: 2px solid #4EE1A0;
 }
 
@@ -64,8 +65,7 @@ h1 {
     position: absolute;
     width: 120px;
     height: 38px;
-    left: 165px;
-    top: 567px;
+    top: 370px;
 }
 
 .contact-me {
@@ -74,12 +74,17 @@ h1 {
     height: 26px;
     left: calc(50% - 117px/2 - 1.5px);
     top: calc(50% - 26px/2 - 6px);
-
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 2px solid #4EE1A0;
     /* identical to box height, or 162% */
 
     letter-spacing: 2.28571px;
@@ -88,4 +93,8 @@ h1 {
 
     color: #FFFFFF;
 
+}
+.contact-me:hover{
+    color:#4EE1A0;
+    cursor: pointer;
 }
