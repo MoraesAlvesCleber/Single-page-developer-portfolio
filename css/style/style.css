@@ -1,3 +1,25 @@
+@import url("/css/style/main.css");
+
+:root {
+    --black: hsl(0, 0 ,8);
+    --verde:hsl(153,71,79);
+    --black-light:hsl(0, 0, 14);
+    --pale-white: hsl(0, 0, 85);
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Bold';
+    src: url(/assets/fonts/static/SpaceGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family: 'SpaceGrotesk-Medium';
+    src: url(/assets/fonts/static/SpaceGrotesk-Medium.ttf);
+}
+@font-face {
+    font-family: 'SpaceGrotesk-VariableFont_wght';
+    src: url(/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
+
 body {
     background-color: black;
 }
@@ -28,4 +50,15 @@ body {
     height: 25px;
     left: 1053px;
     top: 43px;
+}
+
+.svgheader {
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    left: -100px;
+    top: 133px;
+
+    mix-blend-mode: normal;
+    opacity: 0.50;
 }
