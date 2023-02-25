@@ -1,0 +1,68 @@
+.line-white {
+    position: absolute;
+    width: 1110px;
+    height: 20px;
+    border-top: 2px solid #FFFFFF;
+    left: 165px;
+    top: 840px;
+    opacity: 0.5;
+}
+
+.skills {
+    position: absolute;
+    width: 1110px;
+    height: 327px;
+    left: 165px;
+    top: 924px;
+    color: white;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 50px;
+
+
+}
+
+.divSkills {
+    width: 345px;
+    height: 98px;
+
+}
+
+h3 {
+    width: 124px;
+    height: 56px;
+    left: calc(50% - 124px/2 - 110.5px);
+    top: calc(50% - 56px/2 - 21px);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+
+}
+
+p {
+    height: 28px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 28px/2 + 35px);
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.svg-main {
+    position: absolute;
+    width: 530px;
+    height: 129px;
+    left: 1149px;
+    top: 1120px;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
