@@ -1,5 +1,6 @@
 @import url("/css/style/section_title.css");
 @import url("/css/style/section_skills.css");
+@import url("/css/style/section_projects.css");
 
 :root {
     --black: hsl(0, 0 ,8);
