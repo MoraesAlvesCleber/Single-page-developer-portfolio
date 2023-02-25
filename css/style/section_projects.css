@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 60px 0;
+  
 }
 
 .projects-title {
@@ -46,4 +47,29 @@
     height: 400px;
     left: 0px;
     top: 168px;
+}
+
+.projects-h5 {
+    width: 251px;
+    height: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 16px;
+}
+
+.projects-text{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 16px;
+}
+
+.container-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    width: 1140px;
 }
