@@ -1,6 +1,7 @@
 @import url("/css/style/section_title.css");
 @import url("/css/style/section_skills.css");
 @import url("/css/style/section_projects.css");
+@import url("/css/style/footer.css");
 
 :root {
     --black: hsl(0, 0 ,8);
@@ -45,9 +46,9 @@ body {
 
 .nav {
     display: flex;
+    position: absolute;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     width: 192.49px;
     height: 25px;
     left: 1053px;

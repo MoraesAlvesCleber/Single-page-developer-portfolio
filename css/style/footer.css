@@ -1,0 +1,66 @@
+footer {
+    position: absolute;
+    width: 1110px;
+    height: 675px;
+    left: 165px;
+    top: 3197px;
+    background: #242424;
+    color: white;
+}
+
+.section-footer {
+    display: flex;
+    width: 1080px;
+    height: 208px;
+    margin-left: 165px;
+}
+
+.footer-title {
+    width: 330px;
+    height: 88px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -2.5px;
+
+}
+
+.footer-input {
+    width: 445px;
+    height: 327px;
+}
+
+.div-nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line-white-footer {
+    width: 1110px;
+    height: 1px;
+    border-top: 2px solid #FFFFFF;
+    opacity: 0.5;
+}
+
+.adamkeyes-footer {
+    width: 172px;
+    height: 32px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.444444px;
+
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 192.49px;
+    height: 25px;
+}

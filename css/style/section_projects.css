@@ -40,13 +40,20 @@
     border-bottom: 2px solid #4EE1A0;
 
 }
-
+.projects-contact-me:hover {
+    color: #4EE1A0;
+    cursor: pointer;
+}
 
 .projects-img {
     width: 540px;
     height: 400px;
     left: 0px;
     top: 168px;
+}
+.projects-img:hover{
+    opacity: 0.90;
+    cursor: pointer;
 }
 
 .projects-h5 {
