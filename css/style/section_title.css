@@ -35,6 +35,17 @@ h1 {
     top: 0px;
 }
 
+.circle {
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 129px;
+    height: 129px;
+    left: 766px;
+    top: 521px;
+    border: 1px solid #FFFFFF;
+}
+
 .paragraph {
     position: absolute;
     height: 84px;
@@ -83,5 +94,3 @@ h1 {
     color: #4EE1A0;
     cursor: pointer;
 }
-
- 

@@ -34,7 +34,7 @@ body {
     left: 165px;
     top: 39px;
 
-    font-family: 'Space Grotesk';
+    font-family:'SpaceGrotesk-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -53,6 +53,7 @@ body {
     height: 25px;
     left: 1053px;
     top: 43px;
+    z-index: 1;
 }
 
 .svg-header {
