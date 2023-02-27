@@ -16,10 +16,9 @@
 }
 
 .projects-title {
-
     width: 334px;
     height: 88px;
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 68px;
@@ -29,9 +28,9 @@
 
 .projects-contact-me {
 
-    width: 132px;
+    width: 120px;
     height: 26px;
-    font-family: 'Space Grotesk';
+    font-family:'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -59,7 +58,7 @@
 .projects-h5 {
     width: 251px;
     height: 32px;
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -70,8 +69,10 @@
 .projects-text{
     display: flex;
     justify-content: flex-start;
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     gap: 30px;
     margin-top: 16px;
+    font-size: 18px;
 }
 
 .container-projects{

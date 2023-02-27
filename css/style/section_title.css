@@ -70,14 +70,14 @@ h1 {
 
 .contact-me {
     position: absolute;
-    width: 117px;
+    width: 108px;
     height: 26px;
     left: calc(50% - 117px/2 - 1.5px);
     top: calc(50% - 26px/2 - 6px);
     padding-right: 10px;
     padding-bottom: 10px;
     text-transform: uppercase;
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

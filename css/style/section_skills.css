@@ -35,7 +35,7 @@ h3 {
     height: 56px;
     left: calc(50% - 124px/2 - 110.5px);
     top: calc(50% - 56px/2 - 21px);
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -49,10 +49,10 @@ p {
     left: 0%;
     right: 0%;
     top: calc(50% - 28px/2 + 35px);
-    font-family: 'Space Grotesk';
+    font-family: 'SpaceGrotesk-Medium';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
 }
 
