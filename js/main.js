@@ -35,36 +35,23 @@ const patternEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 const inputNome = document.getElementById('input-nome');
 const inputEmail = document.getElementById('input-email');
 
-function validateInputName(input) {
+function validateInput(input, pattern) {
   const inputValue = input.value;
  
   if (inputValue === '') {
     input.style.borderBottom = "2px solid white";
-  } else if (patternNome.test(inputValue)) {
+  } else if (pattern.test(inputValue)) {
     input.style.borderBottom = "2px solid green";
   } else {
     input.style.borderBottom = "2px solid red";
   }
 }
 
-function validateInputEmail(input) {
-  const inputValue = input.value;
  
-  if (inputValue === '') {
-    input.style.borderBottom = "2px solid white";
-  } else if (patternEmail.test(inputValue)) {
-    input.style.borderBottom = "2px solid green";
-  } else {
-    input.style.borderBottom = "2px solid red";
-  }
-}
-
-
-
 inputNome.addEventListener('input', function() {
-  validateInputName(inputNome);  
+  validateInput(inputNome, patternNome);  
 });
 
 inputEmail.addEventListener('input', function() {
-validateInputEmail(inputEmail);
+validateInput(inputEmail, patternEmail);
 });
