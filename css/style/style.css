@@ -4,19 +4,22 @@
 @import url("/css/style/footer.css");
 
 :root {
-    --black: hsl(0, 0 ,8);
-    --verde:hsl(153,71,79);
-    --black-light:hsl(0, 0, 14);
+    --black: hsl(0, 0, 8);
+    --verde: hsl(153, 71, 79);
+    --black-light: hsl(0, 0, 14);
     --pale-white: hsl(0, 0, 85);
 }
+
 @font-face {
     font-family: 'SpaceGrotesk-Bold';
     src: url(/assets/fonts/static/SpaceGrotesk-Bold.ttf);
 }
+
 @font-face {
     font-family: 'SpaceGrotesk-Medium';
     src: url(/assets/fonts/static/SpaceGrotesk-Medium.ttf);
 }
+
 @font-face {
     font-family: 'SpaceGrotesk-VariableFont_wght';
     src: url(/assets/fonts/SpaceGrotesk-VariableFont_wght.ttf);
@@ -30,11 +33,10 @@ body {
 .adamkeyes {
     position: absolute;
     width: 172px;
-    height: 32px;
     left: 165px;
     top: 39px;
 
-    font-family:'SpaceGrotesk-Bold';
+    font-family: 'SpaceGrotesk-Bold';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -42,6 +44,20 @@ body {
     /* identical to box height, or 100% */
     letter-spacing: -0.444444px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 375px) {
+    .adamkeyes {
+        left: 120px;
+        font-size: 26px;
+        width: 129px;
+        height: 32px;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.333333px;
+
+
+    }
 }
 
 .nav {

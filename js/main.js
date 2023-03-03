@@ -1,6 +1,5 @@
 const divImgs = document.querySelectorAll('.div-img');
 
-
 divImgs.forEach((divImg) => {
 
   const divLink = divImg.querySelector('.div-link');
@@ -10,22 +9,18 @@ divImgs.forEach((divImg) => {
     divLink.style.display = 'flex';
     img.style.opacity = '0.8';
     img.style.filter = 'brightness(0.2)';
-     
-  
 
   });
 
-  // Adiciona um event listener para o evento "mouseout"
   divImg.addEventListener('mouseout', () => {
     divLink.style.display = 'none';
     img.style.opacity = '1';
     img.style.filter = 'brightness(1)';
-    
 
   });
 });
 
-                                            //////////////footer inputs////////////////
+//////////////footer inputs////////////////
 
 
 
@@ -37,7 +32,7 @@ const inputEmail = document.getElementById('input-email');
 
 function validateInput(input, pattern) {
   const inputValue = input.value;
- 
+
   if (inputValue === '') {
     input.style.borderBottom = "2px solid white";
   } else if (pattern.test(inputValue)) {
@@ -47,11 +42,10 @@ function validateInput(input, pattern) {
   }
 }
 
- 
-inputNome.addEventListener('input', function() {
-  validateInput(inputNome, patternNome);  
+inputNome.addEventListener('input', function () {
+  validateInput(inputNome, patternNome);
 });
 
-inputEmail.addEventListener('input', function() {
-validateInput(inputEmail, patternEmail);
+inputEmail.addEventListener('input', function () {
+  validateInput(inputEmail, patternEmail);
 });

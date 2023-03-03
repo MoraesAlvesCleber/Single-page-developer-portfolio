@@ -27,6 +27,24 @@ h1 {
     border-bottom: 2px solid #4EE1A0;
 }
 
+.img-mobile {
+    background-image: url(/assets/images/image-profile-mobile.webp);
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .img-mobile {
+        font-display: block;
+        position: absolute;
+        width: 174px;
+        height: 383px;
+        left: 101px;
+        top: 0px;
+        /*background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);*/
+    }
+}
+
+
 .img-profile {
     position: absolute;
     width: 445px;
@@ -34,6 +52,28 @@ h1 {
     left: 830px;
     top: 0px;
 }
+
+.img-profile-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .img-profile {
+        display: none;
+    }
+
+    .img-profile-mobile {
+        display: block;
+        position: absolute;
+        width: 174px;
+        height: 383px;
+        left: 101px;
+        top: 0px;
+
+        background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
+    }
+}
+
 
 .circle {
     border-radius: 50%;
