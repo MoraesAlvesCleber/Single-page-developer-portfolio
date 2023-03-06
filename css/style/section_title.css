@@ -5,7 +5,7 @@
     left: 165px;
     top: 198px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .title{
         width: 360px;
         top: 198px;
@@ -27,12 +27,12 @@ h1 {
     color: #FFFFFF;
 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     h1{
         position: relative;
         font-size: 40px;
         width: 345px;
-        left: -132px;
+        left: -112px;
         top: 240px;
         line-height: 40px;
     }
@@ -46,7 +46,7 @@ h1 {
     border-bottom: 2px solid #4EE1A0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .img-mobile {
         font-display: block;
         position: absolute;
@@ -71,7 +71,7 @@ h1 {
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .img-profile {
         display: none;
     }
@@ -81,7 +81,7 @@ h1 {
         position: absolute;
         width: 174px;
         height: 383px;
-        left: 101px;
+        left: 125px;
         top: 0px;
 
     background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
@@ -99,9 +99,9 @@ h1 {
     top: 521px;
     border: 1px solid #FFFFFF;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .circle{
-        left: 300px;
+        left: 350px;
         top: 252px;
     }
 }
@@ -111,14 +111,19 @@ h1 {
     height: 84px;
     left: 0%;
     right: 36.97%;
-    top: calc(50% - 84px/2 + 109.5px);
+    top: calc(50% - 84px/2 + 110.5px);
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #D9D9D9;
-
+}
+@media screen and (max-width: 500px) {
+    .paragraph{
+        top: 351px;
+        left: -115px;
+    }
 }
 
 .contact {
@@ -148,6 +153,12 @@ h1 {
     letter-spacing: 2.28571px;
     color: #FFFFFF;
 
+}
+@media screen and (max-width: 500px) {
+    .contact-me{
+        top: 92px;
+        left: -18px;
+    }
 }
 
 .contact-me:hover {

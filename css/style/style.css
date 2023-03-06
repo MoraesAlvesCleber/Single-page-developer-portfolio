@@ -46,9 +46,9 @@ body {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .adamkeyes {
-        left: 120px;
+        left: 147px;
         font-size: 26px;
         width: 129px;
         height: 32px;
@@ -70,12 +70,12 @@ body {
     z-index: 1;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .nav {
         position: absolute;
         width: 153.99px;
         height: 20px;
-        left: 110px;
+        left: 136px;
         top: 88px;
 
     }
@@ -91,4 +91,8 @@ body {
     mix-blend-mode: normal;
     opacity: 0.80;
 }
- 
+@media screen and (max-width: 500px) {
+    .svg-header {
+        left: -335px;
+    }
+}

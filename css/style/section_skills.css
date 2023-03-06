@@ -8,6 +8,14 @@
     opacity: 0.5;
 }
 
+@media screen and (max-width: 500px) {
+    .line-white {
+        width: 410px;
+        left: 1px;
+        top: 784px;
+    }
+}
+
 .skills {
     position: absolute;
     width: 1110px;
@@ -24,14 +32,37 @@
 
 }
 
+@media screen and (max-width: 500px) {
+    .skills {
+        display: flex;
+        position: absolute;
+        width: 412px;
+        height: 604px;
+        left: 0;
+        top: 815px;
+        flex-direction: column;
+    }
+}
+
+
 .divSkills {
-    width: 345px;
+    width: 332px;
     height: 98px;
 
 }
+@media screen and (max-width: 500px) {
+    .divSkills {
+        width: 412px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
 
 h3 {
-    width: 124px;
+   
     height: 56px;
     left: calc(50% - 124px/2 - 110.5px);
     top: calc(50% - 56px/2 - 21px);
