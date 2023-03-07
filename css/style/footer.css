@@ -105,16 +105,6 @@ footer {
     outline: none;
 }
 
-@media screen and (max-width: 500px) {
-    .input-dados {
-        height: 70px;
-    }
-
-    .footer-input {
-        margin-bottom: 20px;
-    }
-}
-
 .input-msg {
     color: white;
     width: 445px;
@@ -126,6 +116,29 @@ footer {
     line-height: 26px;
     letter-spacing: -0.222222px;
     outline: none;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .input-dados {
+        height: 70px;
+        left: -46px;
+        position: relative;
+        width: 384px;
+    }
+
+    .footer-input {
+        margin-bottom: 20px;
+    }
+
+    .input-msg {
+        left: -52px;
+        position: relative;
+        width: 372px;
+    }
+
 
 }
 
@@ -221,12 +234,14 @@ footer {
     height: 25px;
 
 }
+
 @media screen and (max-width: 500px) {
-    .adamkeyes-footer{
+    .adamkeyes-footer {
         position: absolute;
         top: 250px;
     }
-    .nav-footer{
+
+    .nav-footer {
         position: absolute;
         top: 300px;
         align-content: center;
