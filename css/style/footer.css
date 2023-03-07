@@ -8,9 +8,11 @@ footer {
     background: #242424;
     color: white;
 }
+
 @media screen and (max-width: 500px) {
-    footer{
+    footer {
         top: 5150px;
+        height: 900px;
     }
 }
 
@@ -25,15 +27,31 @@ footer {
 
 }
 
+@media screen and (max-width: 500px) {
+    .section-footer {
+        margin-left: 0;
+        flex-direction: column;
+        width: 412px;
+    }
+}
+
 .footer-title {
     width: 329px;
     height: 88px;
-    font-family:'SpaceGrotesk-VariableFont_wght';
+    font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
     font-weight: 700;
     font-size: 88px;
     line-height: 88px;
     letter-spacing: -2.5px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-title {
+        font-size: 60px;
+        text-align: center;
+        margin-left: 28px;
+    }
 }
 
 .div-footer-text {
@@ -52,6 +70,17 @@ footer {
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-text {
+        position: static;
+        text-align: center;
+        font-size: 16px;
+        margin-right: 38px;
+        margin-bottom: 20px;
+
+    }
 }
 
 .footer-input {
@@ -74,8 +103,16 @@ footer {
     line-height: 26px;
     letter-spacing: -0.222222px;
     outline: none;
+}
 
+@media screen and (max-width: 500px) {
+    .input-dados {
+        height: 70px;
+    }
 
+    .footer-input {
+        margin-bottom: 20px;
+    }
 }
 
 .input-msg {
@@ -109,6 +146,14 @@ footer {
     letter-spacing: 2.28571px;
     color: #FFFFFF;
 
+}
+
+@media screen and (max-width: 500px) {
+    .message {
+        top: 540px;
+        position: absolute;
+        left: 252px;
+    }
 }
 
 .message:hover {
@@ -147,10 +192,19 @@ footer {
     left: 135px;
 }
 
+@media screen and (max-width: 500px) {
+    .line-white-footer {
+        width: 410px;
+        top: 350px;
+        left: 0;
+    }
+}
+
+
 .adamkeyes-footer {
     width: 172px;
     height: 32px;
-    font-family:'SpaceGrotesk-Medium';
+    font-family: 'SpaceGrotesk-Medium';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -166,4 +220,15 @@ footer {
     width: 192.49px;
     height: 25px;
 
+}
+@media screen and (max-width: 500px) {
+    .adamkeyes-footer{
+        position: absolute;
+        top: 250px;
+    }
+    .nav-footer{
+        position: absolute;
+        top: 300px;
+        align-content: center;
+    }
 }
