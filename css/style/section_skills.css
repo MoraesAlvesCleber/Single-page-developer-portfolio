@@ -1,5 +1,5 @@
 .line-white {
-    position: absolute;
+    position: relative;
     width: 1110px;
     height: 20px;
     border-top: 2px solid #FFFFFF;
@@ -8,7 +8,7 @@
     opacity: 0.5;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .line-white {
         width: 410px;
         left: 1px;
@@ -17,7 +17,7 @@
 }
 
 .skills {
-    position: absolute;
+    position: relative;
     width: 1110px;
     height: 327px;
     left: 165px;
@@ -32,10 +32,10 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .skills {
         display: flex;
-        position: absolute;
+        position: relative;
         width: 412px;
         height: 604px;
         left: 0;
@@ -50,7 +50,7 @@
     height: 98px;
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .divSkills {
         width: 412px;
         display: flex;
@@ -88,7 +88,7 @@ p {
 }
 
 .svg-main {
-    position: absolute;
+    position: relative;
     width: 530px;
     height: 129px;
     left: 1149px;

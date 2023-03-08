@@ -30,12 +30,18 @@ body {
     background-color: black;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
 .adamkeyes {
-    position: absolute;
-    width: 172px;
+    position: relative;
     left: 165px;
     top: 39px;
-
+    width: 172px;
     font-family: 'SpaceGrotesk-Bold';
     font-style: normal;
     font-weight: 700;
@@ -46,7 +52,7 @@ body {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .adamkeyes {
         left: 147px;
         font-size: 26px;
@@ -60,19 +66,23 @@ body {
 
 .nav {
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     width: 192.49px;
     height: 25px;
+    right: 102px;
+    top: 44px;
+    /*width: 192.49px;
+    height: 25px;
     left: 1053px;
     top: 43px;
-    z-index: 1;
+    z-index: 1;*/
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .nav {
-        position: absolute;
+        position: relative;
         width: 153.99px;
         height: 20px;
         left: 136px;
@@ -82,16 +92,16 @@ body {
 }
 
 .svg-header {
-    position: absolute;
+    position: relative;
     width: 530px;
     height: 129px;
     left: -100px;
     top: 133px;
-
     mix-blend-mode: normal;
     opacity: 0.80;
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 412px) {
     .svg-header {
         left: -335px;
     }

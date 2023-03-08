@@ -1,11 +1,11 @@
 .title {
-    position: absolute;
+    position: relative;
     width: 706px;
     height: 303px;
     left: 165px;
     top: 198px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .title{
         width: 360px;
         top: 198px;
@@ -13,7 +13,7 @@
 }
 
 h1 {
-    position: absolute;
+    position: relative;
     width: 709px;
     height: 88px;
     left: calc(50% - 709px/2 + 1.5px);
@@ -27,7 +27,7 @@ h1 {
     color: #FFFFFF;
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     h1{
         position: relative;
         font-size: 40px;
@@ -42,11 +42,11 @@ h1 {
 }
 
 .grifado {
-    display: absolute;
+    display: relative;
     border-bottom: 2px solid #4EE1A0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .img-mobile {
         font-display: block;
         position: absolute;
@@ -60,7 +60,7 @@ h1 {
 
 
 .img-profile {
-    position: absolute;
+    position: relative;
     width: 445px;
     height: 720px;
     left: 830px;
@@ -71,14 +71,14 @@ h1 {
     display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .img-profile {
         display: none;
     }
 
     .img-profile-mobile {
         display: block;
-        position: absolute;
+        position: relative;
         width: 174px;
         height: 383px;
         left: 125px;
@@ -92,14 +92,14 @@ h1 {
 .circle {
     border-radius: 50%;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     width: 129px;
     height: 129px;
     left: 766px;
     top: 521px;
     border: 1px solid #FFFFFF;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .circle{
         left: 350px;
         top: 252px;
@@ -107,7 +107,7 @@ h1 {
 }
 
 .paragraph {
-    position: absolute;
+    position: relative;
     height: 84px;
     left: 0%;
     right: 36.97%;
@@ -119,7 +119,7 @@ h1 {
     line-height: 28px;
     color: #D9D9D9;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .paragraph{
         top: 351px;
         left: -115px;
@@ -127,14 +127,14 @@ h1 {
 }
 
 .contact {
-    position: absolute;
+    position: relative;
     width: 120px;
     height: 38px;
     top: 370px;
 }
 
 .contact-me {
-    position: absolute;
+    position: relative;
     width: 108px;
     height: 26px;
     left: calc(50% - 117px/2 - 1.5px);
@@ -154,7 +154,7 @@ h1 {
     color: #FFFFFF;
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .contact-me{
         top: 92px;
         left: -18px;

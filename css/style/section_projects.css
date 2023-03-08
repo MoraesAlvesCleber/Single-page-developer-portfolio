@@ -1,6 +1,6 @@
 .line-white-projects {
     display: none;
-    position: absolute;
+    position: relative;
     width: 1110px;
     height: 20px;
     border-top: 2px solid #FFFFFF;
@@ -8,7 +8,7 @@
     top: 1450px;
     opacity: 0.5;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .line-white-projects{
         display: block;
         width: 412px;
@@ -17,7 +17,7 @@
 
 .projects {
     
-    position: absolute;
+    position: relative;
     width: 1110px;
     height: 1767px;
     left: 160px;
@@ -25,7 +25,7 @@
     color: white;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .projects {
         left: 0;
         top: 1500px;
@@ -51,7 +51,7 @@
     line-height: 88px;
     letter-spacing: -2.5px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 412px) {
     .projects-title{
         width: 220px;
         font-size: 56px;
@@ -87,7 +87,7 @@
 }
 
 .div-link {
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 100px;
     display: none;
@@ -108,9 +108,9 @@
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 412px){
     .div-link-mobile{
-        position: absolute;
+        position: relative;
         display: block;
         left: 20px;
         margin-top: 20px;
@@ -142,7 +142,7 @@
     top: 168px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width:  412px) {
     .projects-img {
         width: 380px;
         height: 346px;
@@ -159,7 +159,7 @@
     line-height: 32px;
     margin-top: 16px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:  412px) {
     .projects-h5{
         margin-left: 84px;
     }
@@ -173,7 +173,7 @@
     margin-top: 16px;
     font-size: 18px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:  412px) {
     .projects-text{
         margin-left: 86px;
     }
@@ -185,7 +185,7 @@
     row-gap: 80px;
     width: 1140px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width:  412px) {
     .container-projects {
         display: flex;
         flex-direction: column;
