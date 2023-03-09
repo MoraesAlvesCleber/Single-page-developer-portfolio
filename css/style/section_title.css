@@ -60,7 +60,7 @@ h1 {
 
 
 .img-profile {
-    position: relative;
+    position: absolute;
     width: 445px;
     height: 720px;
     left: 830px;
