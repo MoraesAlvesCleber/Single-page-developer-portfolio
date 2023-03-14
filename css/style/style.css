@@ -76,8 +76,8 @@ header {
     /*width: 192.49px;
     height: 25px;
     left: 1053px;
-    top: 43px;
-    z-index: 1;*/
+    top: 43px;*/
+    z-index: 1;
 }
 
 @media screen and (max-width: 412px) {

@@ -3,7 +3,8 @@
     width: 706px;
     height: 303px;
     left: 165px;
-    top: 198px;
+    bottom: 95px;
+    
 }
 @media screen and (max-width: 412px) {
     .title{
@@ -109,9 +110,9 @@ h1 {
 .paragraph {
     position: relative;
     height: 84px;
+    top: 130px;
     left: 0%;
     right: 36.97%;
-    top: calc(50% - 84px/2 + 110.5px);
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
@@ -135,10 +136,10 @@ h1 {
 
 .contact-me {
     position: relative;
-    width: 108px;
-    height: 26px;
-    left: calc(50% - 117px/2 - 1.5px);
-    top: calc(50% - 26px/2 - 6px);
+    width: 120px;
+    height: 38px;
+    left:  165px;
+    top:  567px;
     padding-right: 10px;
     padding-bottom: 10px;
     text-transform: uppercase;
@@ -154,6 +155,7 @@ h1 {
     color: #FFFFFF;
 
 }
+
 @media screen and (max-width: 412px) {
     .contact-me{
         top: 92px;
