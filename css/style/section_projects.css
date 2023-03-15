@@ -21,7 +21,7 @@
     width: 1110px;
     height: 1767px;
     left: 160px;
-    top: 1230px;
+    top: 252px;
     color: white;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .div-link {
-    position: relative;
+    position: absolute;
     width: 300px;
     height: 100px;
     display: none;

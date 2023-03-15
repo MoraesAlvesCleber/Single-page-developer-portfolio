@@ -4,6 +4,7 @@
     height: 303px;
     left: 165px;
     bottom: 95px;
+    top: 34px;
     
 }
 @media screen and (max-width: 412px) {
@@ -97,8 +98,8 @@ h1 {
     width: 129px;
     height: 129px;
     left: 766px;
-    top: 521px;
     border: 1px solid #FFFFFF;
+    bottom: 355px;
 }
 @media screen and (max-width: 412px) {
     .circle{
@@ -116,7 +117,7 @@ h1 {
     font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 28px;
     color: #D9D9D9;
 }
@@ -139,9 +140,7 @@ h1 {
     width: 120px;
     height: 38px;
     left:  165px;
-    top:  567px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    bottom: 268px;
     text-transform: uppercase;
     font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
