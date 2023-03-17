@@ -150,7 +150,7 @@
 }
 
 .projects-h5 {
-    width: 251px;
+    width: 280px;
     height: 32px;
     font-family: 'SpaceGrotesk-VariableFont_wght';
     font-style: normal;
@@ -159,6 +159,7 @@
     line-height: 32px;
     margin-top: 16px;
 }
+
 @media screen and (max-width:  412px) {
     .projects-h5{
         margin-left: 84px;
