@@ -2,7 +2,7 @@ footer {
 
     position: relative;
     margin: 0;
-    width: 100%;
+    width: 104%;
     height: 675px;
     top: 312px;
     background: #242424;
@@ -91,6 +91,8 @@ footer {
     align-items: flex-end;
     width: 445px;
     height: 327px;
+    right: 40px;
+    position: relative;
 }
 
 .input-dados {
