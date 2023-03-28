@@ -80,7 +80,7 @@ h1 {
 
     .img-profile-mobile {
         display: block;
-        position: relative;
+        position: absolute;
         width: 174px;
         height: 383px;
         left: 125px;
