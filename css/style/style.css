@@ -55,7 +55,7 @@ header {
 
 @media screen and (max-width: 412px) {
     .adamkeyes {
-        left: 147px;
+        left: 105px;
         font-size: 26px;
         width: 129px;
         height: 32px;
@@ -86,7 +86,7 @@ header {
         position: relative;
         width: 153.99px;
         height: 20px;
-        left: -122px;
+        left: -163px;
         top: 88px;
 
     }
@@ -104,6 +104,6 @@ header {
 
 @media screen and (max-width: 412px) {
     .svg-header {
-        left: -335px;
+        left: -362px;
     }
 }

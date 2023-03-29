@@ -12,7 +12,7 @@
     .line-white {
         width: 410px;
         left: 1px;
-        top: 784px;
+        top: 258px;
     }
 }
 
@@ -38,8 +38,8 @@
         position: relative;
         width: 412px;
         height: 604px;
-        left: 0;
-        top: 815px;
+        left: -35px;
+        top: 288px;
         flex-direction: column;
     }
 }

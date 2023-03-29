@@ -12,6 +12,7 @@
     .line-white-projects{
         display: block;
         width: 412px;
+        top:210px;
     }
 }
 
@@ -28,7 +29,7 @@
 @media screen and (max-width: 412px) {
     .projects {
         left: 0;
-        top: 1500px;
+        top: 200px;
         width: 412px;
     }
 }
@@ -54,7 +55,7 @@
 @media screen and (max-width: 412px) {
     .projects-title{
         width: 220px;
-        font-size: 56px;
+        font-size: 44px;
         justify-content: space-evenly;
     }
 }
@@ -71,6 +72,12 @@
     letter-spacing: 2.28571px;
     border-bottom: 2px solid #4EE1A0;
 
+}
+@media screen and (max-width: 412px){
+    .projects-contact-me{
+        position: relative;
+        left: -68px;
+    }
 }
 
 .projects-contact-me:hover {
@@ -109,10 +116,13 @@
 }
 
 @media screen and (max-width: 412px){
+    .div-link{
+        left: 20px;
+    }
     .div-link-mobile{
         position: relative;
         display: block;
-        left: 20px;
+        left: 88px;
         margin-top: 20px;
     }
     .link-mobile{
@@ -144,8 +154,11 @@
 
 @media screen and (max-width:  412px) {
     .projects-img {
-        width: 380px;
+        position: relative;
+        width: 325px;
         height: 346px;
+        left: -36px;
+        top: -54px;
     }
 }
 
@@ -163,6 +176,7 @@
 @media screen and (max-width:  412px) {
     .projects-h5{
         margin-left: 84px;
+        margin-top: -50px;
     }
 }
 

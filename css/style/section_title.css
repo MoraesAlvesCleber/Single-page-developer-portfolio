@@ -34,8 +34,8 @@ h1 {
         position: relative;
         font-size: 40px;
         width: 345px;
-        left: -112px;
-        top: 240px;
+        left: -145px;
+        top: 65px;
         line-height: 40px;
     }
     .space{
@@ -83,7 +83,7 @@ h1 {
         position: absolute;
         width: 174px;
         height: 383px;
-        left: 125px;
+        left: 83px;
         top: 0px;
 
     background: linear-gradient(180deg, rgba(36, 36, 36, 0.0001) 0.65%, #242424 100%);
@@ -103,8 +103,8 @@ h1 {
 }
 @media screen and (max-width: 412px) {
     .circle{
-        left: 350px;
-        top: 252px;
+        left: 284px;
+        top: -623px;
     }
 }
 
@@ -123,8 +123,10 @@ h1 {
 }
 @media screen and (max-width: 412px) {
     .paragraph{
-        top: 351px;
-        left: -115px;
+        top: 100px;
+        left: -174px;
+        font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -157,8 +159,8 @@ h1 {
 
 @media screen and (max-width: 412px) {
     .contact-me{
-        top: 92px;
-        left: -18px;
+        top: -171px;
+        left: 106px;
     }
 }
 
