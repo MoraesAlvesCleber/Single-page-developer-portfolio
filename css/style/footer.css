@@ -77,8 +77,8 @@ footer {
     .footer-text {
         position: static;
         text-align: center;
-        font-size: 16px;
-        margin-right: 38px;
+        font-size: 12px;
+        margin-right: 104px;
         margin-bottom: 20px;
 
     }
@@ -127,9 +127,9 @@ footer {
 @media screen and (max-width: 412px) {
     .input-dados {
         height: 70px;
-        left: -46px;
+        left: -81px;
         position: relative;
-        width: 384px;
+        width: 311px;
     }
 
     .footer-input {
@@ -137,9 +137,9 @@ footer {
     }
 
     .input-msg {
-        left: -52px;
+        left: -83px;
         position: relative;
-        width: 372px;
+        width: 308px;
     }
 
 
@@ -166,9 +166,9 @@ footer {
 
 @media screen and (max-width: 412px) {
     .message {
-        top: 540px;
+        top: 50px;
         position: relative;
-        left: 252px;
+        left: -80px;
     }
 }
 
@@ -189,12 +189,11 @@ footer {
 
 .div-nav-footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: relative;
     top: 230px;
     width: 1110px;
-    left: 130px;
+    /*left: 130px;*/
 
 }
 
@@ -210,9 +209,9 @@ footer {
 
 @media screen and (max-width: 412px) {
     .line-white-footer {
-        width: 410px;
-        top: 350px;
-        left: 0;
+        width: 305px;
+        top: 394px;
+        left: 15px;
     }
 }
 
@@ -241,12 +240,14 @@ footer {
 @media screen and (max-width: 412px) {
     .adamkeyes-footer {
         position: relative;
-        top: 250px;
+        top: 184px;
+        right:-77px;
     }
 
     .nav-footer {
         position: relative;
-        top: 300px;
+        top: 229px;
         align-content: center;
+        right: 106px;
     }
 }
