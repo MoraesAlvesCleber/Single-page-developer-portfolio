@@ -189,11 +189,12 @@ footer {
 
 .div-nav-footer {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     top: 230px;
-    width: 1110px;
-    /*left: 130px;*/
+    width: 1124px;
+    left: 130px;
 
 }
 
@@ -241,7 +242,7 @@ footer {
     .adamkeyes-footer {
         position: relative;
         top: 184px;
-        right:-77px;
+        right:50px;
     }
 
     .nav-footer {
